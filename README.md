@@ -18,12 +18,12 @@ In this project you'll take take an almost completed e-commerce store and refact
 
 ### Task 1: Project Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal.
-- [ ] CD into the project base directory `cd react-shopping-cart`.
-- [ ] Download project dependencies by running `npm install`.
-- [ ] Start up the app using `npm start`.
+- [x] Create a forked copy of this project.
+- [x] Add your team lead as collaborator on Github.
+- [x] Clone your OWN version of the repository in your terminal.
+- [x] CD into the project base directory `cd react-shopping-cart`.
+- [x] Download project dependencies by running `npm install`.
+- [x] Start up the app using `npm start`.
 
 ### Task 2: MVP
 
@@ -66,7 +66,7 @@ Before you get started, please take a few minutes and get acquainted with this a
 **Before**
 
 ```js
-<Route exact path="/">
+<Route exact path='/'>
   <Products products={products} addItem={addItem} />
 </Route>
 ```
@@ -74,7 +74,7 @@ Before you get started, please take a few minutes and get acquainted with this a
 **After**
 
 ```js
-<Route exact path="/">
+<Route exact path='/'>
   <Products />
 </Route>
 ```
